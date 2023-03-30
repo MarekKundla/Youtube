@@ -2,9 +2,7 @@ import { Stack } from '@mui/material';
 
 const Videos = ({ videos }) => {
     return (
-        <div>
-            Videos
-        </div>
+        <div>Videos</div>
     )
 }
 
