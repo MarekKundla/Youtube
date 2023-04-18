@@ -7,7 +7,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 const ChannelDetail = () => {
     const [channelDetail, setChannelDetail] = useState(null);
-    const [videos, setVideos] = useState[];
+    const [videos, setVideos] = useState([]);
     const { id } = useParams();
 
     useEffect(() => {
